@@ -27,6 +27,9 @@
 #include <xercesc/dom/DOMNodeList.hpp>
 #include <xercesc/dom/DOMNode.hpp>
 
+//For macOS
+#include <unistd.h>
+
 ClassImp(remollSeed_t)
 
 // Singleton

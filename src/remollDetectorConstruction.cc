@@ -38,6 +38,10 @@
 
 #include "G4Threading.hh"
 #include "G4AutoLock.hh"
+
+//For macOS
+#include <unistd.h>
+
 namespace { G4Mutex remollDetectorConstructionMutex = G4MUTEX_INITIALIZER; }
 
 G4ThreadLocal remollGlobalField* remollDetectorConstruction::fGlobalField = 0;
