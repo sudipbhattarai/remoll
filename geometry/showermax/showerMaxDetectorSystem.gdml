@@ -228,7 +228,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7008"/>
+		<auxiliary auxtype="DetNo" auxvalue="70200"/>
 	</volume>
 	<volume name="logic_tungsten_0_0">
 		<materialref ref="Tungsten_material"/>
@@ -240,11 +240,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7006"/>
+		<auxiliary auxtype="DetNo" auxvalue="70400"/>
 	</volume>
 	<volume name="logic_tungsten_0_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701005"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_0_2">
@@ -252,7 +254,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7004"/>
+		<auxiliary auxtype="DetNo" auxvalue="70600"/>
 	</volume>
 	<volume name="logic_tungsten_0_2">
 		<materialref ref="Tungsten_material"/>
@@ -264,13 +266,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7002"/>
+		<auxiliary auxtype="DetNo" auxvalue="70800"/>
 	</volume>
 	<volume name="logic_tungsten_0_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7001"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_0_0">
@@ -312,14 +312,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="70028"/>
+		<auxiliary auxtype="DetNo" auxvalue="72800"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_0">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="70029"/>
+		<auxiliary auxtype="DetNo" auxvalue="72900"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_0">
@@ -346,14 +346,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="70010"/>
+		<auxiliary auxtype="DetNo" auxvalue="71000"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_0">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="70011"/>
+		<auxiliary auxtype="DetNo" auxvalue="71100"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_0">
@@ -361,7 +361,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="70016"/>
+		<auxiliary auxtype="DetNo" auxvalue="71600"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_0">
@@ -378,21 +378,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="70012"/>
+		<auxiliary auxtype="DetNo" auxvalue="71200"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_0">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="70014"/>
+		<auxiliary auxtype="DetNo" auxvalue="71400"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_0">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="70015"/>
+		<auxiliary auxtype="DetNo" auxvalue="71500"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_0">
@@ -409,7 +409,7 @@
 			<rotation name="rot_logic_si_chip_2_0" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="70013"/>
+		<auxiliary auxtype="DetNo" auxvalue="71300"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -614,7 +614,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7018"/>
+		<auxiliary auxtype="DetNo" auxvalue="70201"/>
 	</volume>
 	<volume name="logic_tungsten_1_0">
 		<materialref ref="Tungsten_material"/>
@@ -626,11 +626,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7016"/>
+		<auxiliary auxtype="DetNo" auxvalue="70401"/>
 	</volume>
 	<volume name="logic_tungsten_1_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701015"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_1_2">
@@ -638,7 +640,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7014"/>
+		<auxiliary auxtype="DetNo" auxvalue="70601"/>
 	</volume>
 	<volume name="logic_tungsten_1_2">
 		<materialref ref="Tungsten_material"/>
@@ -650,13 +652,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7012"/>
+		<auxiliary auxtype="DetNo" auxvalue="70801"/>
 	</volume>
 	<volume name="logic_tungsten_1_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7011"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_1_0">
@@ -698,14 +698,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="70128"/>
+		<auxiliary auxtype="DetNo" auxvalue="72801"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_1">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="70129"/>
+		<auxiliary auxtype="DetNo" auxvalue="72901"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_1">
@@ -732,14 +732,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="70110"/>
+		<auxiliary auxtype="DetNo" auxvalue="71001"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_1">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="70111"/>
+		<auxiliary auxtype="DetNo" auxvalue="71101"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_1">
@@ -747,7 +747,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="70116"/>
+		<auxiliary auxtype="DetNo" auxvalue="71601"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_1">
@@ -764,21 +764,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="70112"/>
+		<auxiliary auxtype="DetNo" auxvalue="71201"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_1">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="70114"/>
+		<auxiliary auxtype="DetNo" auxvalue="71401"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_1">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="70115"/>
+		<auxiliary auxtype="DetNo" auxvalue="71501"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_1">
@@ -795,7 +795,7 @@
 			<rotation name="rot_logic_si_chip_2_1" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="70113"/>
+		<auxiliary auxtype="DetNo" auxvalue="71301"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -1000,7 +1000,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7028"/>
+		<auxiliary auxtype="DetNo" auxvalue="70202"/>
 	</volume>
 	<volume name="logic_tungsten_2_0">
 		<materialref ref="Tungsten_material"/>
@@ -1012,11 +1012,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7026"/>
+		<auxiliary auxtype="DetNo" auxvalue="70402"/>
 	</volume>
 	<volume name="logic_tungsten_2_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701025"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_2_2">
@@ -1024,7 +1026,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7024"/>
+		<auxiliary auxtype="DetNo" auxvalue="70602"/>
 	</volume>
 	<volume name="logic_tungsten_2_2">
 		<materialref ref="Tungsten_material"/>
@@ -1036,13 +1038,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7022"/>
+		<auxiliary auxtype="DetNo" auxvalue="70802"/>
 	</volume>
 	<volume name="logic_tungsten_2_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7021"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_2_0">
@@ -1084,14 +1084,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="70228"/>
+		<auxiliary auxtype="DetNo" auxvalue="72802"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_2">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="70229"/>
+		<auxiliary auxtype="DetNo" auxvalue="72902"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_2">
@@ -1118,14 +1118,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="70210"/>
+		<auxiliary auxtype="DetNo" auxvalue="71002"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_2">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="70211"/>
+		<auxiliary auxtype="DetNo" auxvalue="71102"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_2">
@@ -1133,7 +1133,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="70216"/>
+		<auxiliary auxtype="DetNo" auxvalue="71602"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_2">
@@ -1150,21 +1150,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="70212"/>
+		<auxiliary auxtype="DetNo" auxvalue="71202"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_2">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="70214"/>
+		<auxiliary auxtype="DetNo" auxvalue="71402"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_2">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="70215"/>
+		<auxiliary auxtype="DetNo" auxvalue="71502"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_2">
@@ -1181,7 +1181,7 @@
 			<rotation name="rot_logic_si_chip_2_2" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="70213"/>
+		<auxiliary auxtype="DetNo" auxvalue="71302"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -1386,7 +1386,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7038"/>
+		<auxiliary auxtype="DetNo" auxvalue="70203"/>
 	</volume>
 	<volume name="logic_tungsten_3_0">
 		<materialref ref="Tungsten_material"/>
@@ -1398,11 +1398,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7036"/>
+		<auxiliary auxtype="DetNo" auxvalue="70403"/>
 	</volume>
 	<volume name="logic_tungsten_3_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701035"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_3_2">
@@ -1410,7 +1412,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7034"/>
+		<auxiliary auxtype="DetNo" auxvalue="70603"/>
 	</volume>
 	<volume name="logic_tungsten_3_2">
 		<materialref ref="Tungsten_material"/>
@@ -1422,13 +1424,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7032"/>
+		<auxiliary auxtype="DetNo" auxvalue="70803"/>
 	</volume>
 	<volume name="logic_tungsten_3_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7031"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_3_0">
@@ -1470,14 +1470,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="70328"/>
+		<auxiliary auxtype="DetNo" auxvalue="72803"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_3">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="70329"/>
+		<auxiliary auxtype="DetNo" auxvalue="72903"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_3">
@@ -1504,14 +1504,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="70310"/>
+		<auxiliary auxtype="DetNo" auxvalue="71003"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_3">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="70311"/>
+		<auxiliary auxtype="DetNo" auxvalue="71103"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_3">
@@ -1519,7 +1519,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="70316"/>
+		<auxiliary auxtype="DetNo" auxvalue="71603"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_3">
@@ -1536,21 +1536,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="70312"/>
+		<auxiliary auxtype="DetNo" auxvalue="71203"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_3">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="70314"/>
+		<auxiliary auxtype="DetNo" auxvalue="71403"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_3">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="70315"/>
+		<auxiliary auxtype="DetNo" auxvalue="71503"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_3">
@@ -1567,7 +1567,7 @@
 			<rotation name="rot_logic_si_chip_2_3" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="70313"/>
+		<auxiliary auxtype="DetNo" auxvalue="71303"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -1772,7 +1772,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7048"/>
+		<auxiliary auxtype="DetNo" auxvalue="70204"/>
 	</volume>
 	<volume name="logic_tungsten_4_0">
 		<materialref ref="Tungsten_material"/>
@@ -1784,11 +1784,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7046"/>
+		<auxiliary auxtype="DetNo" auxvalue="70404"/>
 	</volume>
 	<volume name="logic_tungsten_4_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701045"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_4_2">
@@ -1796,7 +1798,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7044"/>
+		<auxiliary auxtype="DetNo" auxvalue="70604"/>
 	</volume>
 	<volume name="logic_tungsten_4_2">
 		<materialref ref="Tungsten_material"/>
@@ -1808,13 +1810,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7042"/>
+		<auxiliary auxtype="DetNo" auxvalue="70804"/>
 	</volume>
 	<volume name="logic_tungsten_4_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7041"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_4_0">
@@ -1856,14 +1856,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="70428"/>
+		<auxiliary auxtype="DetNo" auxvalue="72804"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_4">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="70429"/>
+		<auxiliary auxtype="DetNo" auxvalue="72904"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_4">
@@ -1890,14 +1890,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="70410"/>
+		<auxiliary auxtype="DetNo" auxvalue="71004"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_4">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="70411"/>
+		<auxiliary auxtype="DetNo" auxvalue="71104"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_4">
@@ -1905,7 +1905,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="70416"/>
+		<auxiliary auxtype="DetNo" auxvalue="71604"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_4">
@@ -1922,21 +1922,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="70412"/>
+		<auxiliary auxtype="DetNo" auxvalue="71204"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_4">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="70414"/>
+		<auxiliary auxtype="DetNo" auxvalue="71404"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_4">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="70415"/>
+		<auxiliary auxtype="DetNo" auxvalue="71504"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_4">
@@ -1953,7 +1953,7 @@
 			<rotation name="rot_logic_si_chip_2_4" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="70413"/>
+		<auxiliary auxtype="DetNo" auxvalue="71304"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -2158,7 +2158,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7058"/>
+		<auxiliary auxtype="DetNo" auxvalue="70205"/>
 	</volume>
 	<volume name="logic_tungsten_5_0">
 		<materialref ref="Tungsten_material"/>
@@ -2170,11 +2170,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7056"/>
+		<auxiliary auxtype="DetNo" auxvalue="70405"/>
 	</volume>
 	<volume name="logic_tungsten_5_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701055"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_5_2">
@@ -2182,7 +2184,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7054"/>
+		<auxiliary auxtype="DetNo" auxvalue="70605"/>
 	</volume>
 	<volume name="logic_tungsten_5_2">
 		<materialref ref="Tungsten_material"/>
@@ -2194,13 +2196,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7052"/>
+		<auxiliary auxtype="DetNo" auxvalue="70805"/>
 	</volume>
 	<volume name="logic_tungsten_5_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7051"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_5_0">
@@ -2242,14 +2242,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="70528"/>
+		<auxiliary auxtype="DetNo" auxvalue="72805"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_5">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="70529"/>
+		<auxiliary auxtype="DetNo" auxvalue="72905"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_5">
@@ -2276,14 +2276,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="70510"/>
+		<auxiliary auxtype="DetNo" auxvalue="71005"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_5">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="70511"/>
+		<auxiliary auxtype="DetNo" auxvalue="71105"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_5">
@@ -2291,7 +2291,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="70516"/>
+		<auxiliary auxtype="DetNo" auxvalue="71605"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_5">
@@ -2308,21 +2308,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="70512"/>
+		<auxiliary auxtype="DetNo" auxvalue="71205"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_5">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="70514"/>
+		<auxiliary auxtype="DetNo" auxvalue="71405"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_5">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="70515"/>
+		<auxiliary auxtype="DetNo" auxvalue="71505"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_5">
@@ -2339,7 +2339,7 @@
 			<rotation name="rot_logic_si_chip_2_5" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="70513"/>
+		<auxiliary auxtype="DetNo" auxvalue="71305"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -2544,7 +2544,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7068"/>
+		<auxiliary auxtype="DetNo" auxvalue="70206"/>
 	</volume>
 	<volume name="logic_tungsten_6_0">
 		<materialref ref="Tungsten_material"/>
@@ -2556,11 +2556,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7066"/>
+		<auxiliary auxtype="DetNo" auxvalue="70406"/>
 	</volume>
 	<volume name="logic_tungsten_6_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701065"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_6_2">
@@ -2568,7 +2570,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7064"/>
+		<auxiliary auxtype="DetNo" auxvalue="70606"/>
 	</volume>
 	<volume name="logic_tungsten_6_2">
 		<materialref ref="Tungsten_material"/>
@@ -2580,13 +2582,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7062"/>
+		<auxiliary auxtype="DetNo" auxvalue="70806"/>
 	</volume>
 	<volume name="logic_tungsten_6_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7061"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_6_0">
@@ -2628,14 +2628,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="70628"/>
+		<auxiliary auxtype="DetNo" auxvalue="72806"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_6">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="70629"/>
+		<auxiliary auxtype="DetNo" auxvalue="72906"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_6">
@@ -2662,14 +2662,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="70610"/>
+		<auxiliary auxtype="DetNo" auxvalue="71006"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_6">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="70611"/>
+		<auxiliary auxtype="DetNo" auxvalue="71106"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_6">
@@ -2677,7 +2677,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="70616"/>
+		<auxiliary auxtype="DetNo" auxvalue="71606"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_6">
@@ -2694,21 +2694,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="70612"/>
+		<auxiliary auxtype="DetNo" auxvalue="71206"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_6">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="70614"/>
+		<auxiliary auxtype="DetNo" auxvalue="71406"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_6">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="70615"/>
+		<auxiliary auxtype="DetNo" auxvalue="71506"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_6">
@@ -2725,7 +2725,7 @@
 			<rotation name="rot_logic_si_chip_2_6" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="70613"/>
+		<auxiliary auxtype="DetNo" auxvalue="71306"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -2930,7 +2930,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7078"/>
+		<auxiliary auxtype="DetNo" auxvalue="70207"/>
 	</volume>
 	<volume name="logic_tungsten_7_0">
 		<materialref ref="Tungsten_material"/>
@@ -2942,11 +2942,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7076"/>
+		<auxiliary auxtype="DetNo" auxvalue="70407"/>
 	</volume>
 	<volume name="logic_tungsten_7_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701075"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_7_2">
@@ -2954,7 +2956,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7074"/>
+		<auxiliary auxtype="DetNo" auxvalue="70607"/>
 	</volume>
 	<volume name="logic_tungsten_7_2">
 		<materialref ref="Tungsten_material"/>
@@ -2966,13 +2968,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7072"/>
+		<auxiliary auxtype="DetNo" auxvalue="70807"/>
 	</volume>
 	<volume name="logic_tungsten_7_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7071"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_7_0">
@@ -3014,14 +3014,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="70728"/>
+		<auxiliary auxtype="DetNo" auxvalue="72807"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_7">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="70729"/>
+		<auxiliary auxtype="DetNo" auxvalue="72907"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_7">
@@ -3048,14 +3048,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="70710"/>
+		<auxiliary auxtype="DetNo" auxvalue="71007"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_7">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="70711"/>
+		<auxiliary auxtype="DetNo" auxvalue="71107"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_7">
@@ -3063,7 +3063,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="70716"/>
+		<auxiliary auxtype="DetNo" auxvalue="71607"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_7">
@@ -3080,21 +3080,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="70712"/>
+		<auxiliary auxtype="DetNo" auxvalue="71207"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_7">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="70714"/>
+		<auxiliary auxtype="DetNo" auxvalue="71407"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_7">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="70715"/>
+		<auxiliary auxtype="DetNo" auxvalue="71507"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_7">
@@ -3111,7 +3111,7 @@
 			<rotation name="rot_logic_si_chip_2_7" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="70713"/>
+		<auxiliary auxtype="DetNo" auxvalue="71307"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -3316,7 +3316,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7088"/>
+		<auxiliary auxtype="DetNo" auxvalue="70208"/>
 	</volume>
 	<volume name="logic_tungsten_8_0">
 		<materialref ref="Tungsten_material"/>
@@ -3328,11 +3328,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7086"/>
+		<auxiliary auxtype="DetNo" auxvalue="70408"/>
 	</volume>
 	<volume name="logic_tungsten_8_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701085"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_8_2">
@@ -3340,7 +3342,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7084"/>
+		<auxiliary auxtype="DetNo" auxvalue="70608"/>
 	</volume>
 	<volume name="logic_tungsten_8_2">
 		<materialref ref="Tungsten_material"/>
@@ -3352,13 +3354,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7082"/>
+		<auxiliary auxtype="DetNo" auxvalue="70808"/>
 	</volume>
 	<volume name="logic_tungsten_8_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7081"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_8_0">
@@ -3400,14 +3400,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="70828"/>
+		<auxiliary auxtype="DetNo" auxvalue="72808"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_8">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="70829"/>
+		<auxiliary auxtype="DetNo" auxvalue="72908"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_8">
@@ -3434,14 +3434,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="70810"/>
+		<auxiliary auxtype="DetNo" auxvalue="71008"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_8">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="70811"/>
+		<auxiliary auxtype="DetNo" auxvalue="71108"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_8">
@@ -3449,7 +3449,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="70816"/>
+		<auxiliary auxtype="DetNo" auxvalue="71608"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_8">
@@ -3466,21 +3466,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="70812"/>
+		<auxiliary auxtype="DetNo" auxvalue="71208"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_8">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="70814"/>
+		<auxiliary auxtype="DetNo" auxvalue="71408"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_8">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="70815"/>
+		<auxiliary auxtype="DetNo" auxvalue="71508"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_8">
@@ -3497,7 +3497,7 @@
 			<rotation name="rot_logic_si_chip_2_8" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="70813"/>
+		<auxiliary auxtype="DetNo" auxvalue="71308"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -3702,7 +3702,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7098"/>
+		<auxiliary auxtype="DetNo" auxvalue="70209"/>
 	</volume>
 	<volume name="logic_tungsten_9_0">
 		<materialref ref="Tungsten_material"/>
@@ -3714,11 +3714,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7096"/>
+		<auxiliary auxtype="DetNo" auxvalue="70409"/>
 	</volume>
 	<volume name="logic_tungsten_9_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701095"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_9_2">
@@ -3726,7 +3728,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7094"/>
+		<auxiliary auxtype="DetNo" auxvalue="70609"/>
 	</volume>
 	<volume name="logic_tungsten_9_2">
 		<materialref ref="Tungsten_material"/>
@@ -3738,13 +3740,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7092"/>
+		<auxiliary auxtype="DetNo" auxvalue="70809"/>
 	</volume>
 	<volume name="logic_tungsten_9_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7091"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_9_0">
@@ -3786,14 +3786,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="70928"/>
+		<auxiliary auxtype="DetNo" auxvalue="72809"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_9">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="70929"/>
+		<auxiliary auxtype="DetNo" auxvalue="72909"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_9">
@@ -3820,14 +3820,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="70910"/>
+		<auxiliary auxtype="DetNo" auxvalue="71009"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_9">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="70911"/>
+		<auxiliary auxtype="DetNo" auxvalue="71109"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_9">
@@ -3835,7 +3835,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="70916"/>
+		<auxiliary auxtype="DetNo" auxvalue="71609"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_9">
@@ -3852,21 +3852,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="70912"/>
+		<auxiliary auxtype="DetNo" auxvalue="71209"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_9">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="70914"/>
+		<auxiliary auxtype="DetNo" auxvalue="71409"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_9">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="70915"/>
+		<auxiliary auxtype="DetNo" auxvalue="71509"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_9">
@@ -3883,7 +3883,7 @@
 			<rotation name="rot_logic_si_chip_2_9" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="70913"/>
+		<auxiliary auxtype="DetNo" auxvalue="71309"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -4088,7 +4088,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7108"/>
+		<auxiliary auxtype="DetNo" auxvalue="70210"/>
 	</volume>
 	<volume name="logic_tungsten_10_0">
 		<materialref ref="Tungsten_material"/>
@@ -4100,11 +4100,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7106"/>
+		<auxiliary auxtype="DetNo" auxvalue="70410"/>
 	</volume>
 	<volume name="logic_tungsten_10_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701105"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_10_2">
@@ -4112,7 +4114,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7104"/>
+		<auxiliary auxtype="DetNo" auxvalue="70610"/>
 	</volume>
 	<volume name="logic_tungsten_10_2">
 		<materialref ref="Tungsten_material"/>
@@ -4124,13 +4126,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7102"/>
+		<auxiliary auxtype="DetNo" auxvalue="70810"/>
 	</volume>
 	<volume name="logic_tungsten_10_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7101"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_10_0">
@@ -4172,14 +4172,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="71028"/>
+		<auxiliary auxtype="DetNo" auxvalue="72810"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_10">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="71029"/>
+		<auxiliary auxtype="DetNo" auxvalue="72910"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_10">
@@ -4213,7 +4213,7 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="71011"/>
+		<auxiliary auxtype="DetNo" auxvalue="71110"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_10">
@@ -4221,7 +4221,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="71016"/>
+		<auxiliary auxtype="DetNo" auxvalue="71610"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_10">
@@ -4238,21 +4238,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="71012"/>
+		<auxiliary auxtype="DetNo" auxvalue="71210"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_10">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="71014"/>
+		<auxiliary auxtype="DetNo" auxvalue="71410"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_10">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="71015"/>
+		<auxiliary auxtype="DetNo" auxvalue="71510"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_10">
@@ -4269,7 +4269,7 @@
 			<rotation name="rot_logic_si_chip_2_10" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="71013"/>
+		<auxiliary auxtype="DetNo" auxvalue="71310"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -4474,7 +4474,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7118"/>
+		<auxiliary auxtype="DetNo" auxvalue="70211"/>
 	</volume>
 	<volume name="logic_tungsten_11_0">
 		<materialref ref="Tungsten_material"/>
@@ -4486,11 +4486,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7116"/>
+		<auxiliary auxtype="DetNo" auxvalue="70411"/>
 	</volume>
 	<volume name="logic_tungsten_11_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701115"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_11_2">
@@ -4498,7 +4500,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7114"/>
+		<auxiliary auxtype="DetNo" auxvalue="70611"/>
 	</volume>
 	<volume name="logic_tungsten_11_2">
 		<materialref ref="Tungsten_material"/>
@@ -4510,13 +4512,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7112"/>
+		<auxiliary auxtype="DetNo" auxvalue="70811"/>
 	</volume>
 	<volume name="logic_tungsten_11_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7111"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_11_0">
@@ -4558,14 +4558,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="71128"/>
+		<auxiliary auxtype="DetNo" auxvalue="72811"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_11">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="71129"/>
+		<auxiliary auxtype="DetNo" auxvalue="72911"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_11">
@@ -4592,7 +4592,7 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="71110"/>
+		<auxiliary auxtype="DetNo" auxvalue="71011"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_11">
@@ -4607,7 +4607,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="71116"/>
+		<auxiliary auxtype="DetNo" auxvalue="71611"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_11">
@@ -4624,21 +4624,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="71112"/>
+		<auxiliary auxtype="DetNo" auxvalue="71211"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_11">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="71114"/>
+		<auxiliary auxtype="DetNo" auxvalue="71411"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_11">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="71115"/>
+		<auxiliary auxtype="DetNo" auxvalue="71511"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_11">
@@ -4655,7 +4655,7 @@
 			<rotation name="rot_logic_si_chip_2_11" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="71113"/>
+		<auxiliary auxtype="DetNo" auxvalue="71311"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -4860,7 +4860,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7128"/>
+		<auxiliary auxtype="DetNo" auxvalue="70212"/>
 	</volume>
 	<volume name="logic_tungsten_12_0">
 		<materialref ref="Tungsten_material"/>
@@ -4872,11 +4872,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7126"/>
+		<auxiliary auxtype="DetNo" auxvalue="70412"/>
 	</volume>
 	<volume name="logic_tungsten_12_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701125"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_12_2">
@@ -4884,7 +4886,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7124"/>
+		<auxiliary auxtype="DetNo" auxvalue="70612"/>
 	</volume>
 	<volume name="logic_tungsten_12_2">
 		<materialref ref="Tungsten_material"/>
@@ -4896,13 +4898,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7122"/>
+		<auxiliary auxtype="DetNo" auxvalue="70812"/>
 	</volume>
 	<volume name="logic_tungsten_12_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7121"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_12_0">
@@ -4944,14 +4944,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="71228"/>
+		<auxiliary auxtype="DetNo" auxvalue="72812"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_12">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="71229"/>
+		<auxiliary auxtype="DetNo" auxvalue="72912"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_12">
@@ -4978,14 +4978,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="71210"/>
+		<auxiliary auxtype="DetNo" auxvalue="71012"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_12">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="71211"/>
+		<auxiliary auxtype="DetNo" auxvalue="71112"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_12">
@@ -4993,7 +4993,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="71216"/>
+		<auxiliary auxtype="DetNo" auxvalue="71612"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_12">
@@ -5017,14 +5017,14 @@
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="71214"/>
+		<auxiliary auxtype="DetNo" auxvalue="71412"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_12">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="71215"/>
+		<auxiliary auxtype="DetNo" auxvalue="71512"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_12">
@@ -5041,7 +5041,7 @@
 			<rotation name="rot_logic_si_chip_2_12" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="71213"/>
+		<auxiliary auxtype="DetNo" auxvalue="71312"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -5246,7 +5246,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7138"/>
+		<auxiliary auxtype="DetNo" auxvalue="70213"/>
 	</volume>
 	<volume name="logic_tungsten_13_0">
 		<materialref ref="Tungsten_material"/>
@@ -5258,11 +5258,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7136"/>
+		<auxiliary auxtype="DetNo" auxvalue="70413"/>
 	</volume>
 	<volume name="logic_tungsten_13_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701135"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_13_2">
@@ -5270,7 +5272,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7134"/>
+		<auxiliary auxtype="DetNo" auxvalue="70613"/>
 	</volume>
 	<volume name="logic_tungsten_13_2">
 		<materialref ref="Tungsten_material"/>
@@ -5282,13 +5284,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7132"/>
+		<auxiliary auxtype="DetNo" auxvalue="70813"/>
 	</volume>
 	<volume name="logic_tungsten_13_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7131"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_13_0">
@@ -5330,14 +5330,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="71328"/>
+		<auxiliary auxtype="DetNo" auxvalue="72813"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_13">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="71329"/>
+		<auxiliary auxtype="DetNo" auxvalue="72913"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_13">
@@ -5364,14 +5364,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="71310"/>
+		<auxiliary auxtype="DetNo" auxvalue="71013"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_13">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="71311"/>
+		<auxiliary auxtype="DetNo" auxvalue="71113"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_13">
@@ -5379,7 +5379,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="71316"/>
+		<auxiliary auxtype="DetNo" auxvalue="71613"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_13">
@@ -5396,21 +5396,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="71312"/>
+		<auxiliary auxtype="DetNo" auxvalue="71213"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_13">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="71314"/>
+		<auxiliary auxtype="DetNo" auxvalue="71413"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_13">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="71315"/>
+		<auxiliary auxtype="DetNo" auxvalue="71513"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_13">
@@ -5632,7 +5632,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7148"/>
+		<auxiliary auxtype="DetNo" auxvalue="70214"/>
 	</volume>
 	<volume name="logic_tungsten_14_0">
 		<materialref ref="Tungsten_material"/>
@@ -5644,11 +5644,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7146"/>
+		<auxiliary auxtype="DetNo" auxvalue="70414"/>
 	</volume>
 	<volume name="logic_tungsten_14_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701145"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_14_2">
@@ -5656,7 +5658,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7144"/>
+		<auxiliary auxtype="DetNo" auxvalue="70614"/>
 	</volume>
 	<volume name="logic_tungsten_14_2">
 		<materialref ref="Tungsten_material"/>
@@ -5668,13 +5670,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7142"/>
+		<auxiliary auxtype="DetNo" auxvalue="70814"/>
 	</volume>
 	<volume name="logic_tungsten_14_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7141"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_14_0">
@@ -5716,14 +5716,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="71428"/>
+		<auxiliary auxtype="DetNo" auxvalue="72814"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_14">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="71429"/>
+		<auxiliary auxtype="DetNo" auxvalue="72914"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_14">
@@ -5750,14 +5750,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="71410"/>
+		<auxiliary auxtype="DetNo" auxvalue="71014"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_14">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="71411"/>
+		<auxiliary auxtype="DetNo" auxvalue="71114"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_14">
@@ -5765,7 +5765,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="71416"/>
+		<auxiliary auxtype="DetNo" auxvalue="71614"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_14">
@@ -5782,7 +5782,7 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="71412"/>
+		<auxiliary auxtype="DetNo" auxvalue="71214"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_14">
@@ -5796,7 +5796,7 @@
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="71415"/>
+		<auxiliary auxtype="DetNo" auxvalue="71514"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_14">
@@ -5813,7 +5813,7 @@
 			<rotation name="rot_logic_si_chip_2_14" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="71413"/>
+		<auxiliary auxtype="DetNo" auxvalue="71314"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -6018,7 +6018,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7158"/>
+		<auxiliary auxtype="DetNo" auxvalue="70215"/>
 	</volume>
 	<volume name="logic_tungsten_15_0">
 		<materialref ref="Tungsten_material"/>
@@ -6030,11 +6030,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7156"/>
+		<auxiliary auxtype="DetNo" auxvalue="70415"/>
 	</volume>
 	<volume name="logic_tungsten_15_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701155"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_15_2">
@@ -6042,7 +6044,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7154"/>
+		<auxiliary auxtype="DetNo" auxvalue="70615"/>
 	</volume>
 	<volume name="logic_tungsten_15_2">
 		<materialref ref="Tungsten_material"/>
@@ -6054,13 +6056,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7152"/>
+		<auxiliary auxtype="DetNo" auxvalue="70815"/>
 	</volume>
 	<volume name="logic_tungsten_15_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7151"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_15_0">
@@ -6102,14 +6102,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="71528"/>
+		<auxiliary auxtype="DetNo" auxvalue="72815"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_15">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="71529"/>
+		<auxiliary auxtype="DetNo" auxvalue="72915"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_15">
@@ -6136,14 +6136,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="71510"/>
+		<auxiliary auxtype="DetNo" auxvalue="71015"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_15">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="71511"/>
+		<auxiliary auxtype="DetNo" auxvalue="71115"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_15">
@@ -6151,7 +6151,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="71516"/>
+		<auxiliary auxtype="DetNo" auxvalue="71615"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_15">
@@ -6168,14 +6168,14 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="71512"/>
+		<auxiliary auxtype="DetNo" auxvalue="71215"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_15">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="71514"/>
+		<auxiliary auxtype="DetNo" auxvalue="71415"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_15">
@@ -6199,7 +6199,7 @@
 			<rotation name="rot_logic_si_chip_2_15" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="71513"/>
+		<auxiliary auxtype="DetNo" auxvalue="71315"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -6404,7 +6404,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7168"/>
+		<auxiliary auxtype="DetNo" auxvalue="70216"/>
 	</volume>
 	<volume name="logic_tungsten_16_0">
 		<materialref ref="Tungsten_material"/>
@@ -6416,11 +6416,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7166"/>
+		<auxiliary auxtype="DetNo" auxvalue="70416"/>
 	</volume>
 	<volume name="logic_tungsten_16_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701165"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_16_2">
@@ -6428,7 +6430,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7164"/>
+		<auxiliary auxtype="DetNo" auxvalue="70616"/>
 	</volume>
 	<volume name="logic_tungsten_16_2">
 		<materialref ref="Tungsten_material"/>
@@ -6440,13 +6442,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7162"/>
+		<auxiliary auxtype="DetNo" auxvalue="70816"/>
 	</volume>
 	<volume name="logic_tungsten_16_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7161"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_16_0">
@@ -6488,14 +6488,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="71628"/>
+		<auxiliary auxtype="DetNo" auxvalue="72816"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_16">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="71629"/>
+		<auxiliary auxtype="DetNo" auxvalue="72916"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_16">
@@ -6522,14 +6522,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="71610"/>
+		<auxiliary auxtype="DetNo" auxvalue="71016"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_16">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="71611"/>
+		<auxiliary auxtype="DetNo" auxvalue="71116"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_16">
@@ -6554,21 +6554,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="71612"/>
+		<auxiliary auxtype="DetNo" auxvalue="71216"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_16">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="71614"/>
+		<auxiliary auxtype="DetNo" auxvalue="71416"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_16">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="71615"/>
+		<auxiliary auxtype="DetNo" auxvalue="71516"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_16">
@@ -6585,7 +6585,7 @@
 			<rotation name="rot_logic_si_chip_2_16" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="71613"/>
+		<auxiliary auxtype="DetNo" auxvalue="71316"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -6790,7 +6790,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7178"/>
+		<auxiliary auxtype="DetNo" auxvalue="70217"/>
 	</volume>
 	<volume name="logic_tungsten_17_0">
 		<materialref ref="Tungsten_material"/>
@@ -6802,11 +6802,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7176"/>
+		<auxiliary auxtype="DetNo" auxvalue="70417"/>
 	</volume>
 	<volume name="logic_tungsten_17_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701175"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_17_2">
@@ -6814,7 +6816,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7174"/>
+		<auxiliary auxtype="DetNo" auxvalue="70617"/>
 	</volume>
 	<volume name="logic_tungsten_17_2">
 		<materialref ref="Tungsten_material"/>
@@ -6826,13 +6828,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7172"/>
+		<auxiliary auxtype="DetNo" auxvalue="70817"/>
 	</volume>
 	<volume name="logic_tungsten_17_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7171"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_17_0">
@@ -6874,14 +6874,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="71728"/>
+		<auxiliary auxtype="DetNo" auxvalue="72817"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_17">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="71729"/>
+		<auxiliary auxtype="DetNo" auxvalue="72917"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_17">
@@ -6908,14 +6908,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="71710"/>
+		<auxiliary auxtype="DetNo" auxvalue="71017"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_17">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="71711"/>
+		<auxiliary auxtype="DetNo" auxvalue="71117"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_17">
@@ -6923,7 +6923,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="71716"/>
+		<auxiliary auxtype="DetNo" auxvalue="71617"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_17">
@@ -6940,21 +6940,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="71712"/>
+		<auxiliary auxtype="DetNo" auxvalue="71217"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_17">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="71714"/>
+		<auxiliary auxtype="DetNo" auxvalue="71417"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_17">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="71715"/>
+		<auxiliary auxtype="DetNo" auxvalue="71517"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_17">
@@ -6971,7 +6971,7 @@
 			<rotation name="rot_logic_si_chip_2_17" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="71713"/>
+		<auxiliary auxtype="DetNo" auxvalue="71317"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -7176,7 +7176,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7188"/>
+		<auxiliary auxtype="DetNo" auxvalue="70218"/>
 	</volume>
 	<volume name="logic_tungsten_18_0">
 		<materialref ref="Tungsten_material"/>
@@ -7188,11 +7188,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7186"/>
+		<auxiliary auxtype="DetNo" auxvalue="70418"/>
 	</volume>
 	<volume name="logic_tungsten_18_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701185"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_18_2">
@@ -7200,7 +7202,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7184"/>
+		<auxiliary auxtype="DetNo" auxvalue="70618"/>
 	</volume>
 	<volume name="logic_tungsten_18_2">
 		<materialref ref="Tungsten_material"/>
@@ -7212,13 +7214,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7182"/>
+		<auxiliary auxtype="DetNo" auxvalue="70818"/>
 	</volume>
 	<volume name="logic_tungsten_18_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7181"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_18_0">
@@ -7260,14 +7260,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="71828"/>
+		<auxiliary auxtype="DetNo" auxvalue="72818"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_18">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="71829"/>
+		<auxiliary auxtype="DetNo" auxvalue="72918"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_18">
@@ -7294,14 +7294,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="71810"/>
+		<auxiliary auxtype="DetNo" auxvalue="71018"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_18">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="71811"/>
+		<auxiliary auxtype="DetNo" auxvalue="71118"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_18">
@@ -7309,7 +7309,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="71816"/>
+		<auxiliary auxtype="DetNo" auxvalue="71618"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_18">
@@ -7326,21 +7326,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="71812"/>
+		<auxiliary auxtype="DetNo" auxvalue="71218"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_18">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="71814"/>
+		<auxiliary auxtype="DetNo" auxvalue="71418"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_18">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="71815"/>
+		<auxiliary auxtype="DetNo" auxvalue="71518"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_18">
@@ -7357,7 +7357,7 @@
 			<rotation name="rot_logic_si_chip_2_18" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="71813"/>
+		<auxiliary auxtype="DetNo" auxvalue="71318"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -7562,7 +7562,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7198"/>
+		<auxiliary auxtype="DetNo" auxvalue="70219"/>
 	</volume>
 	<volume name="logic_tungsten_19_0">
 		<materialref ref="Tungsten_material"/>
@@ -7574,11 +7574,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7196"/>
+		<auxiliary auxtype="DetNo" auxvalue="70419"/>
 	</volume>
 	<volume name="logic_tungsten_19_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701195"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_19_2">
@@ -7586,7 +7588,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7194"/>
+		<auxiliary auxtype="DetNo" auxvalue="70619"/>
 	</volume>
 	<volume name="logic_tungsten_19_2">
 		<materialref ref="Tungsten_material"/>
@@ -7598,13 +7600,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7192"/>
+		<auxiliary auxtype="DetNo" auxvalue="70819"/>
 	</volume>
 	<volume name="logic_tungsten_19_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7191"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_19_0">
@@ -7646,14 +7646,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="71928"/>
+		<auxiliary auxtype="DetNo" auxvalue="72819"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_19">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="71929"/>
+		<auxiliary auxtype="DetNo" auxvalue="72919"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_19">
@@ -7680,14 +7680,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="71910"/>
+		<auxiliary auxtype="DetNo" auxvalue="71019"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_19">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="71911"/>
+		<auxiliary auxtype="DetNo" auxvalue="71119"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_19">
@@ -7695,7 +7695,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="71916"/>
+		<auxiliary auxtype="DetNo" auxvalue="71619"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_19">
@@ -7712,21 +7712,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="71912"/>
+		<auxiliary auxtype="DetNo" auxvalue="71219"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_19">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="71914"/>
+		<auxiliary auxtype="DetNo" auxvalue="71419"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_19">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="71915"/>
+		<auxiliary auxtype="DetNo" auxvalue="71519"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_19">
@@ -7743,7 +7743,7 @@
 			<rotation name="rot_logic_si_chip_2_19" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="71913"/>
+		<auxiliary auxtype="DetNo" auxvalue="71319"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -7948,7 +7948,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7208"/>
+		<auxiliary auxtype="DetNo" auxvalue="70220"/>
 	</volume>
 	<volume name="logic_tungsten_20_0">
 		<materialref ref="Tungsten_material"/>
@@ -7960,11 +7960,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7206"/>
+		<auxiliary auxtype="DetNo" auxvalue="70420"/>
 	</volume>
 	<volume name="logic_tungsten_20_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701205"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_20_2">
@@ -7972,7 +7974,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7204"/>
+		<auxiliary auxtype="DetNo" auxvalue="70620"/>
 	</volume>
 	<volume name="logic_tungsten_20_2">
 		<materialref ref="Tungsten_material"/>
@@ -7984,13 +7986,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7202"/>
+		<auxiliary auxtype="DetNo" auxvalue="70820"/>
 	</volume>
 	<volume name="logic_tungsten_20_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7201"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_20_0">
@@ -8032,14 +8032,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="72028"/>
+		<auxiliary auxtype="DetNo" auxvalue="72820"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_20">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="72029"/>
+		<auxiliary auxtype="DetNo" auxvalue="72920"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_20">
@@ -8066,14 +8066,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="72010"/>
+		<auxiliary auxtype="DetNo" auxvalue="71020"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_20">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="72011"/>
+		<auxiliary auxtype="DetNo" auxvalue="71120"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_20">
@@ -8081,7 +8081,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="72016"/>
+		<auxiliary auxtype="DetNo" auxvalue="71620"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_20">
@@ -8098,21 +8098,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="72012"/>
+		<auxiliary auxtype="DetNo" auxvalue="71220"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_20">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="72014"/>
+		<auxiliary auxtype="DetNo" auxvalue="71420"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_20">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="72015"/>
+		<auxiliary auxtype="DetNo" auxvalue="71520"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_20">
@@ -8129,7 +8129,7 @@
 			<rotation name="rot_logic_si_chip_2_20" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="72013"/>
+		<auxiliary auxtype="DetNo" auxvalue="71320"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -8334,7 +8334,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7218"/>
+		<auxiliary auxtype="DetNo" auxvalue="70221"/>
 	</volume>
 	<volume name="logic_tungsten_21_0">
 		<materialref ref="Tungsten_material"/>
@@ -8346,11 +8346,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7216"/>
+		<auxiliary auxtype="DetNo" auxvalue="70421"/>
 	</volume>
 	<volume name="logic_tungsten_21_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701215"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_21_2">
@@ -8358,7 +8360,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7214"/>
+		<auxiliary auxtype="DetNo" auxvalue="70621"/>
 	</volume>
 	<volume name="logic_tungsten_21_2">
 		<materialref ref="Tungsten_material"/>
@@ -8370,13 +8372,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7212"/>
+		<auxiliary auxtype="DetNo" auxvalue="70821"/>
 	</volume>
 	<volume name="logic_tungsten_21_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7211"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_21_0">
@@ -8418,14 +8418,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="72128"/>
+		<auxiliary auxtype="DetNo" auxvalue="72821"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_21">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="72129"/>
+		<auxiliary auxtype="DetNo" auxvalue="72921"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_21">
@@ -8452,14 +8452,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="72110"/>
+		<auxiliary auxtype="DetNo" auxvalue="71021"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_21">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="72111"/>
+		<auxiliary auxtype="DetNo" auxvalue="71121"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_21">
@@ -8467,7 +8467,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="72116"/>
+		<auxiliary auxtype="DetNo" auxvalue="71621"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_21">
@@ -8484,21 +8484,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="72112"/>
+		<auxiliary auxtype="DetNo" auxvalue="71221"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_21">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="72114"/>
+		<auxiliary auxtype="DetNo" auxvalue="71421"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_21">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="72115"/>
+		<auxiliary auxtype="DetNo" auxvalue="71521"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_21">
@@ -8515,7 +8515,7 @@
 			<rotation name="rot_logic_si_chip_2_21" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="72113"/>
+		<auxiliary auxtype="DetNo" auxvalue="71321"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -8720,7 +8720,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7228"/>
+		<auxiliary auxtype="DetNo" auxvalue="70222"/>
 	</volume>
 	<volume name="logic_tungsten_22_0">
 		<materialref ref="Tungsten_material"/>
@@ -8732,11 +8732,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7226"/>
+		<auxiliary auxtype="DetNo" auxvalue="70422"/>
 	</volume>
 	<volume name="logic_tungsten_22_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701225"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_22_2">
@@ -8744,7 +8746,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7224"/>
+		<auxiliary auxtype="DetNo" auxvalue="70622"/>
 	</volume>
 	<volume name="logic_tungsten_22_2">
 		<materialref ref="Tungsten_material"/>
@@ -8756,13 +8758,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7222"/>
+		<auxiliary auxtype="DetNo" auxvalue="70822"/>
 	</volume>
 	<volume name="logic_tungsten_22_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7221"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_22_0">
@@ -8804,14 +8804,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="72228"/>
+		<auxiliary auxtype="DetNo" auxvalue="72822"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_22">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="72229"/>
+		<auxiliary auxtype="DetNo" auxvalue="72922"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_22">
@@ -8838,14 +8838,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="72210"/>
+		<auxiliary auxtype="DetNo" auxvalue="71022"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_22">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="72211"/>
+		<auxiliary auxtype="DetNo" auxvalue="71122"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_22">
@@ -8853,7 +8853,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="72216"/>
+		<auxiliary auxtype="DetNo" auxvalue="71622"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_22">
@@ -8870,21 +8870,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="72212"/>
+		<auxiliary auxtype="DetNo" auxvalue="71222"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_22">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="72214"/>
+		<auxiliary auxtype="DetNo" auxvalue="71422"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_22">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="72215"/>
+		<auxiliary auxtype="DetNo" auxvalue="71522"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_22">
@@ -8901,7 +8901,7 @@
 			<rotation name="rot_logic_si_chip_2_22" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="72213"/>
+		<auxiliary auxtype="DetNo" auxvalue="71322"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -9106,7 +9106,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7238"/>
+		<auxiliary auxtype="DetNo" auxvalue="70223"/>
 	</volume>
 	<volume name="logic_tungsten_23_0">
 		<materialref ref="Tungsten_material"/>
@@ -9118,11 +9118,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7236"/>
+		<auxiliary auxtype="DetNo" auxvalue="70423"/>
 	</volume>
 	<volume name="logic_tungsten_23_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701235"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_23_2">
@@ -9130,7 +9132,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7234"/>
+		<auxiliary auxtype="DetNo" auxvalue="70623"/>
 	</volume>
 	<volume name="logic_tungsten_23_2">
 		<materialref ref="Tungsten_material"/>
@@ -9142,13 +9144,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7232"/>
+		<auxiliary auxtype="DetNo" auxvalue="70823"/>
 	</volume>
 	<volume name="logic_tungsten_23_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7231"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_23_0">
@@ -9190,14 +9190,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="72328"/>
+		<auxiliary auxtype="DetNo" auxvalue="72823"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_23">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="72329"/>
+		<auxiliary auxtype="DetNo" auxvalue="72923"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_23">
@@ -9224,14 +9224,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="72310"/>
+		<auxiliary auxtype="DetNo" auxvalue="71023"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_23">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="72311"/>
+		<auxiliary auxtype="DetNo" auxvalue="71123"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_23">
@@ -9239,7 +9239,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="72316"/>
+		<auxiliary auxtype="DetNo" auxvalue="71623"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_23">
@@ -9256,21 +9256,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="72312"/>
+		<auxiliary auxtype="DetNo" auxvalue="71223"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_23">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="72314"/>
+		<auxiliary auxtype="DetNo" auxvalue="71423"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_23">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="72315"/>
+		<auxiliary auxtype="DetNo" auxvalue="71523"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_23">
@@ -9287,7 +9287,7 @@
 			<rotation name="rot_logic_si_chip_2_23" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="72313"/>
+		<auxiliary auxtype="DetNo" auxvalue="71323"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -9492,7 +9492,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7248"/>
+		<auxiliary auxtype="DetNo" auxvalue="70224"/>
 	</volume>
 	<volume name="logic_tungsten_24_0">
 		<materialref ref="Tungsten_material"/>
@@ -9504,11 +9504,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7246"/>
+		<auxiliary auxtype="DetNo" auxvalue="70424"/>
 	</volume>
 	<volume name="logic_tungsten_24_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701245"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_24_2">
@@ -9516,7 +9518,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7244"/>
+		<auxiliary auxtype="DetNo" auxvalue="70624"/>
 	</volume>
 	<volume name="logic_tungsten_24_2">
 		<materialref ref="Tungsten_material"/>
@@ -9528,13 +9530,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7242"/>
+		<auxiliary auxtype="DetNo" auxvalue="70824"/>
 	</volume>
 	<volume name="logic_tungsten_24_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7241"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_24_0">
@@ -9576,14 +9576,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="72428"/>
+		<auxiliary auxtype="DetNo" auxvalue="72824"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_24">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="72429"/>
+		<auxiliary auxtype="DetNo" auxvalue="72924"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_24">
@@ -9610,14 +9610,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="72410"/>
+		<auxiliary auxtype="DetNo" auxvalue="71024"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_24">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="72411"/>
+		<auxiliary auxtype="DetNo" auxvalue="71124"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_24">
@@ -9625,7 +9625,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="72416"/>
+		<auxiliary auxtype="DetNo" auxvalue="71624"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_24">
@@ -9642,21 +9642,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="72412"/>
+		<auxiliary auxtype="DetNo" auxvalue="71224"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_24">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="72414"/>
+		<auxiliary auxtype="DetNo" auxvalue="71424"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_24">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="72415"/>
+		<auxiliary auxtype="DetNo" auxvalue="71524"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_24">
@@ -9673,7 +9673,7 @@
 			<rotation name="rot_logic_si_chip_2_24" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="72413"/>
+		<auxiliary auxtype="DetNo" auxvalue="71324"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -9878,7 +9878,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7258"/>
+		<auxiliary auxtype="DetNo" auxvalue="70225"/>
 	</volume>
 	<volume name="logic_tungsten_25_0">
 		<materialref ref="Tungsten_material"/>
@@ -9890,11 +9890,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7256"/>
+		<auxiliary auxtype="DetNo" auxvalue="70425"/>
 	</volume>
 	<volume name="logic_tungsten_25_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701255"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_25_2">
@@ -9902,7 +9904,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7254"/>
+		<auxiliary auxtype="DetNo" auxvalue="70625"/>
 	</volume>
 	<volume name="logic_tungsten_25_2">
 		<materialref ref="Tungsten_material"/>
@@ -9914,13 +9916,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7252"/>
+		<auxiliary auxtype="DetNo" auxvalue="70825"/>
 	</volume>
 	<volume name="logic_tungsten_25_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7251"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_25_0">
@@ -9962,14 +9962,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="72528"/>
+		<auxiliary auxtype="DetNo" auxvalue="72825"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_25">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="72529"/>
+		<auxiliary auxtype="DetNo" auxvalue="72925"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_25">
@@ -9996,14 +9996,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="72510"/>
+		<auxiliary auxtype="DetNo" auxvalue="71025"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_25">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="72511"/>
+		<auxiliary auxtype="DetNo" auxvalue="71125"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_25">
@@ -10011,7 +10011,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="72516"/>
+		<auxiliary auxtype="DetNo" auxvalue="71625"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_25">
@@ -10028,21 +10028,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="72512"/>
+		<auxiliary auxtype="DetNo" auxvalue="71225"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_25">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="72514"/>
+		<auxiliary auxtype="DetNo" auxvalue="71425"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_25">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="72515"/>
+		<auxiliary auxtype="DetNo" auxvalue="71525"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_25">
@@ -10059,7 +10059,7 @@
 			<rotation name="rot_logic_si_chip_2_25" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="72513"/>
+		<auxiliary auxtype="DetNo" auxvalue="71325"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -10264,7 +10264,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7268"/>
+		<auxiliary auxtype="DetNo" auxvalue="70226"/>
 	</volume>
 	<volume name="logic_tungsten_26_0">
 		<materialref ref="Tungsten_material"/>
@@ -10276,11 +10276,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7266"/>
+		<auxiliary auxtype="DetNo" auxvalue="70426"/>
 	</volume>
 	<volume name="logic_tungsten_26_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701265"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_26_2">
@@ -10288,7 +10290,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7264"/>
+		<auxiliary auxtype="DetNo" auxvalue="70626"/>
 	</volume>
 	<volume name="logic_tungsten_26_2">
 		<materialref ref="Tungsten_material"/>
@@ -10300,13 +10302,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7262"/>
+		<auxiliary auxtype="DetNo" auxvalue="70826"/>
 	</volume>
 	<volume name="logic_tungsten_26_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7261"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_26_0">
@@ -10348,14 +10348,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="72628"/>
+		<auxiliary auxtype="DetNo" auxvalue="72826"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_26">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="72629"/>
+		<auxiliary auxtype="DetNo" auxvalue="72926"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_26">
@@ -10382,14 +10382,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="72610"/>
+		<auxiliary auxtype="DetNo" auxvalue="71026"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_26">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="72611"/>
+		<auxiliary auxtype="DetNo" auxvalue="71126"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_26">
@@ -10397,7 +10397,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="72616"/>
+		<auxiliary auxtype="DetNo" auxvalue="71626"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_26">
@@ -10414,21 +10414,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="72612"/>
+		<auxiliary auxtype="DetNo" auxvalue="71226"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_26">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="72614"/>
+		<auxiliary auxtype="DetNo" auxvalue="71426"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_26">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="72615"/>
+		<auxiliary auxtype="DetNo" auxvalue="71526"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_26">
@@ -10445,7 +10445,7 @@
 			<rotation name="rot_logic_si_chip_2_26" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="72613"/>
+		<auxiliary auxtype="DetNo" auxvalue="71326"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
@@ -10650,7 +10650,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7278"/>
+		<auxiliary auxtype="DetNo" auxvalue="70227"/>
 	</volume>
 	<volume name="logic_tungsten_27_0">
 		<materialref ref="Tungsten_material"/>
@@ -10662,11 +10662,13 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7276"/>
+		<auxiliary auxtype="DetNo" auxvalue="70427"/>
 	</volume>
 	<volume name="logic_tungsten_27_1">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
+		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
+		<auxiliary auxtype="DetNo" auxvalue="701275"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_quartz_27_2">
@@ -10674,7 +10676,7 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7274"/>
+		<auxiliary auxtype="DetNo" auxvalue="70627"/>
 	</volume>
 	<volume name="logic_tungsten_27_2">
 		<materialref ref="Tungsten_material"/>
@@ -10686,13 +10688,11 @@
 		<solidref ref="solid_quartz"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxQuartz" />
-		<auxiliary auxtype="DetNo" auxvalue="7272"/>
+		<auxiliary auxtype="DetNo" auxvalue="70827"/>
 	</volume>
 	<volume name="logic_tungsten_27_3">
 		<materialref ref="Tungsten_material"/>
 		<solidref ref="solid_tungsten"/>
-		<auxiliary auxtype="SensDet" auxvalue="showerMaxTungsten" />
-		<auxiliary auxtype="DetNo" auxvalue="7271"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 	</volume>
 	<volume name="logic_wrap_27_0">
@@ -10734,14 +10734,14 @@
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeLeft" />
-		<auxiliary auxtype="DetNo" auxvalue="72728"/>
+		<auxiliary auxtype="DetNo" auxvalue="72827"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_ledge_right_27">
 		<materialref ref="Nylon"/>
 		<solidref ref="solid_ledge"/>
 		<auxiliary auxtype="SensDet" auxvalue="ledgeRight" />
-		<auxiliary auxtype="DetNo" auxvalue="72729"/>
+		<auxiliary auxtype="DetNo" auxvalue="72927"/>
 		<auxiliary auxtype="Color" auxvalue="brown"/>
 	</volume>
 	<volume name="logic_mirror_box_bot_27">
@@ -10768,14 +10768,14 @@
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_filter"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTFilter" />
-		<auxiliary auxtype="DetNo" auxvalue="72710"/>
+		<auxiliary auxtype="DetNo" auxvalue="71027"/>
 		<auxiliary auxtype="Color" auxvalue="magenta"/>
 	</volume>
 	<volume name="logic_pmt_window_27">
 		<materialref ref="Quartz"/>
 		<solidref ref="solid_pmt_window"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTwindow" />
-		<auxiliary auxtype="DetNo" auxvalue="72711"/>
+		<auxiliary auxtype="DetNo" auxvalue="71127"/>
 		<auxiliary auxtype="Color" auxvalue="blue"/>
 	</volume>
 	<volume name="logic_pmt_cathode_27">
@@ -10783,7 +10783,7 @@
 		<solidref ref="solid_pmt_cathode"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTcathode" />
 		<auxiliary auxtype="DetType" auxvalue="opticalphoton" />
-		<auxiliary auxtype="DetNo" auxvalue="72716"/>
+		<auxiliary auxtype="DetNo" auxvalue="71627"/>
 		<auxiliary auxtype="Color" auxvalue="green"/>
 	</volume>
 	<volume name="logic_web_plate_27">
@@ -10800,21 +10800,21 @@
 		<materialref ref="G4_Galactic"/>
 		<solidref ref="solid_pmt"/>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMT" />
-		<auxiliary auxtype="DetNo" auxvalue="72712"/>
+		<auxiliary auxtype="DetNo" auxvalue="71227"/>
 		<auxiliary auxtype="Color" auxvalue="yellow"/>
 	</volume>
 	<volume name="logic_si_chip_1_27">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="72714"/>
+		<auxiliary auxtype="DetNo" auxvalue="71427"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_si_chip_2_27">
 		<materialref ref="G4_Si"/>
 		<solidref ref="solid_si_chip"/>
 		<auxiliary auxtype="SensDet" auxvalue="pmtBaseSiChip" />
-		<auxiliary auxtype="DetNo" auxvalue="72715"/>
+		<auxiliary auxtype="DetNo" auxvalue="71527"/>
 		<auxiliary auxtype="Color" auxvalue="black"/>
 	</volume>
 	<volume name="logic_pmt_base_27">
@@ -10831,7 +10831,7 @@
 			<rotation name="rot_logic_si_chip_2_27" x="0" y="pi/2" z="0"/>
 		</physvol>
 		<auxiliary auxtype="SensDet" auxvalue="showerMaxPMTbase" />
-		<auxiliary auxtype="DetNo" auxvalue="72713"/>
+		<auxiliary auxtype="DetNo" auxvalue="71327"/>
 		<auxiliary auxtype="Color" auxvalue="red"/>
 		<auxiliary auxtype="Alpha" auxvalue="0.5"/>
 	</volume>
