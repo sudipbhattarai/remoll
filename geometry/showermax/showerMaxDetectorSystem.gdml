@@ -57,7 +57,7 @@
 		<position name="pos_subtract_uBracket" x="0" y="-3.174999999999999" z="0"/>
 		<rotation name="rot_subtract_uBracket" x="0" y="0" z="0"/>
 	</subtraction>
-	<box name="solid_ledge" lunit="mm" x="21.698000000000008" y="6.35" z="63.5"/>
+	<box name="solid_ledge" lunit="mm" x="21.698000000000008" y="6.35" z="57.419999999999995"/>
 	<trd name="solid_mirror_box_bot_1" lunit="mm" x1="50.529999999999994"  x2="87.868" y1="266.0"  y2="266.0" z="67.462"/>
 	<trd name="solid_mirror_box_bot_2" lunit="mm" x1="49.529999999999994"  x2="86.868" y1="265.0"  y2="265.0" z="68.462"/>
 	<subtraction name="solid_mirror_box_bot">
@@ -74,45 +74,45 @@
 		<position name="pos_subtract_mirror_box_top_12" x="0" y="0" z="0"/>
 		<rotation name="rot_subtract_mirror_box_top_12" x="0" y="0" z="0"/>
 	</subtraction>
-	<box name="solid_mirror_flap" lunit="mm" x="0.5" y="265.0" z="8.0"/>
-	<box name="solid_web_plate_1" lunit="mm" x="432.19" y="15.875" z="63.5"/>
+	<box name="solid_mirror_flap" lunit="mm" x="0.5" y="265.0" z="7.5"/>
+	<box name="solid_web_plate_1" lunit="mm" x="431.79999999999995" y="15.875" z="58.419999999999995"/>
 	<cone name="solid_web_plate_hole_small" rmin1="0"  rmax1="15.875" rmin2="0" rmax2="15.875"  z="16.875" startphi="0" deltaphi="360" aunit="deg" lunit="mm"/>
 	<cone name="solid_web_plate_hole_big" rmin1="0"  rmax1="25.53" rmin2="0" rmax2="25.53"  z="16.875" startphi="0" deltaphi="360" aunit="deg" lunit="mm"/>
 	<box name="solid_web_plate_leg_gap" lunit="mm" x="190.39" y="16.875" z="51.06"/>
 	<subtraction name="solid_web_plate_2">
 		<first ref="solid_web_plate_1"/>
 		<second ref="solid_web_plate_hole_small"/>
-		<position name="pos_subtract_web_plate_hole_small" x="177.92000000000002" y="0" z="0"/>
+		<position name="pos_subtract_web_plate_hole_small" x="177.72499999999997" y="0" z="0"/>
 		<rotation name="rot_subtract_web_plate_hole_small" x="pi/2" y="0" z="0"/>
 	</subtraction>
 	<subtraction name="solid_web_plate_3">
 		<first ref="solid_web_plate_2"/>
 		<second ref="solid_web_plate_hole_small"/>
-		<position name="pos_subtract_web_plate_hole_small" x="127.12000000000002" y="0" z="0"/>
+		<position name="pos_subtract_web_plate_hole_small" x="126.92499999999997" y="0" z="0"/>
 		<rotation name="rot_subtract_web_plate_hole_small" x="pi/2" y="0" z="0"/>
 	</subtraction>
 	<subtraction name="solid_web_plate_4">
 		<first ref="solid_web_plate_3"/>
 		<second ref="solid_web_plate_hole_small"/>
-		<position name="pos_subtract_web_plate_hole_small" x="76.32000000000002" y="0" z="0"/>
+		<position name="pos_subtract_web_plate_hole_small" x="76.12499999999997" y="0" z="0"/>
 		<rotation name="rot_subtract_web_plate_hole_small" x="pi/2" y="0" z="0"/>
 	</subtraction>
 	<subtraction name="solid_web_plate_5">
 		<first ref="solid_web_plate_4"/>
 		<second ref="solid_web_plate_hole_small"/>
-		<position name="pos_subtract_web_plate_hole_small" x="25.52000000000004" y="0" z="0"/>
+		<position name="pos_subtract_web_plate_hole_small" x="25.32499999999999" y="0" z="0"/>
 		<rotation name="rot_subtract_web_plate_hole_small" x="pi/2" y="0" z="0"/>
 	</subtraction>
 	<subtraction name="solid_web_plate_6">
 		<first ref="solid_web_plate_5"/>
 		<second ref="solid_web_plate_hole_big"/>
-		<position name="pos_subtract_web_plate_hole_big" x="-28.454999999999963" y="0" z="0"/>
+		<position name="pos_subtract_web_plate_hole_big" x="-28.650000000000013" y="0" z="0"/>
 		<rotation name="rot_subtract_web_plate_hole_big" x="pi/2" y="0" z="0"/>
 	</subtraction>
 	<subtraction name="solid_web_plate_7">
 		<first ref="solid_web_plate_6"/>
 		<second ref="solid_web_plate_leg_gap"/>
-		<position name="pos_subtract_web_plate_leg" x="-121.0" y="0" z="0"/>
+		<position name="pos_subtract_web_plate_leg" x="-120.80499999999998" y="0" z="0"/>
 		<rotation name="rot_subtract_web_plate_leg" x="0" y="0" z="0"/>
 	</subtraction>
 	<box name="solid_top_support_1" lunit="mm" x="6.35" y="370.878" z="114.3"/>
@@ -185,11 +185,11 @@
 			<position name="pos_pmt_region" x="456.71900000000005" y="0" z="4.0"/>
 			<rotation name="rot_pmt_region" x="0" y="pi/2" z="0"/>
 	</union>
-	<box name="solid_webplate_region" lunit="mm" x="432.19" y="313.8" z="63.5"/>
+	<box name="solid_webplate_region" lunit="mm" x="431.79999999999995" y="313.8" z="58.419999999999995"/>
 	<union name="solid_singledet_5">
 		<first ref="solid_singledet_4"/>
 		<second ref="solid_webplate_region"/>
-			<position name="pos_webplate_region" x="216.095" y="0" z="0"/>
+			<position name="pos_webplate_region" x="215.89999999999998" y="0" z="0"/>
 			<rotation name="rot_webplate_region" x="0" y="0" z="0"/>
 	</union>
 	<box name="solid_strut_region" lunit="mm" x="381.0" y="370.878" z="36.83"/>
@@ -439,7 +439,7 @@
 		</physvol>
 		<physvol name="mirror_flap_0">
 			<volumeref ref="logic_mirror_flap_0"/>
-			<position name="pos_logic_mirror_flap_0" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_0" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_0" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_0">
@@ -509,12 +509,12 @@
 		</physvol>
 		<physvol name="web_plate_right_0">
 			<volumeref ref="logic_web_plate_0"/>
-			<position name="pos_web_plate_0" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_0" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_0" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_0">
 			<volumeref ref="logic_web_plate_0"/>
-			<position name="pos_web_plate_0" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_0" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_0" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_0">
@@ -825,7 +825,7 @@
 		</physvol>
 		<physvol name="mirror_flap_1">
 			<volumeref ref="logic_mirror_flap_1"/>
-			<position name="pos_logic_mirror_flap_1" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_1" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_1" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_1">
@@ -895,12 +895,12 @@
 		</physvol>
 		<physvol name="web_plate_right_1">
 			<volumeref ref="logic_web_plate_1"/>
-			<position name="pos_web_plate_1" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_1" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_1" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_1">
 			<volumeref ref="logic_web_plate_1"/>
-			<position name="pos_web_plate_1" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_1" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_1" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_1">
@@ -1211,7 +1211,7 @@
 		</physvol>
 		<physvol name="mirror_flap_2">
 			<volumeref ref="logic_mirror_flap_2"/>
-			<position name="pos_logic_mirror_flap_2" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_2" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_2" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_2">
@@ -1281,12 +1281,12 @@
 		</physvol>
 		<physvol name="web_plate_right_2">
 			<volumeref ref="logic_web_plate_2"/>
-			<position name="pos_web_plate_2" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_2" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_2" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_2">
 			<volumeref ref="logic_web_plate_2"/>
-			<position name="pos_web_plate_2" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_2" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_2" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_2">
@@ -1597,7 +1597,7 @@
 		</physvol>
 		<physvol name="mirror_flap_3">
 			<volumeref ref="logic_mirror_flap_3"/>
-			<position name="pos_logic_mirror_flap_3" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_3" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_3" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_3">
@@ -1667,12 +1667,12 @@
 		</physvol>
 		<physvol name="web_plate_right_3">
 			<volumeref ref="logic_web_plate_3"/>
-			<position name="pos_web_plate_3" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_3" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_3" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_3">
 			<volumeref ref="logic_web_plate_3"/>
-			<position name="pos_web_plate_3" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_3" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_3" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_3">
@@ -1983,7 +1983,7 @@
 		</physvol>
 		<physvol name="mirror_flap_4">
 			<volumeref ref="logic_mirror_flap_4"/>
-			<position name="pos_logic_mirror_flap_4" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_4" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_4" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_4">
@@ -2053,12 +2053,12 @@
 		</physvol>
 		<physvol name="web_plate_right_4">
 			<volumeref ref="logic_web_plate_4"/>
-			<position name="pos_web_plate_4" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_4" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_4" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_4">
 			<volumeref ref="logic_web_plate_4"/>
-			<position name="pos_web_plate_4" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_4" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_4" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_4">
@@ -2369,7 +2369,7 @@
 		</physvol>
 		<physvol name="mirror_flap_5">
 			<volumeref ref="logic_mirror_flap_5"/>
-			<position name="pos_logic_mirror_flap_5" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_5" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_5" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_5">
@@ -2439,12 +2439,12 @@
 		</physvol>
 		<physvol name="web_plate_right_5">
 			<volumeref ref="logic_web_plate_5"/>
-			<position name="pos_web_plate_5" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_5" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_5" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_5">
 			<volumeref ref="logic_web_plate_5"/>
-			<position name="pos_web_plate_5" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_5" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_5" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_5">
@@ -2755,7 +2755,7 @@
 		</physvol>
 		<physvol name="mirror_flap_6">
 			<volumeref ref="logic_mirror_flap_6"/>
-			<position name="pos_logic_mirror_flap_6" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_6" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_6" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_6">
@@ -2825,12 +2825,12 @@
 		</physvol>
 		<physvol name="web_plate_right_6">
 			<volumeref ref="logic_web_plate_6"/>
-			<position name="pos_web_plate_6" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_6" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_6" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_6">
 			<volumeref ref="logic_web_plate_6"/>
-			<position name="pos_web_plate_6" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_6" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_6" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_6">
@@ -3141,7 +3141,7 @@
 		</physvol>
 		<physvol name="mirror_flap_7">
 			<volumeref ref="logic_mirror_flap_7"/>
-			<position name="pos_logic_mirror_flap_7" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_7" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_7" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_7">
@@ -3211,12 +3211,12 @@
 		</physvol>
 		<physvol name="web_plate_right_7">
 			<volumeref ref="logic_web_plate_7"/>
-			<position name="pos_web_plate_7" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_7" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_7" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_7">
 			<volumeref ref="logic_web_plate_7"/>
-			<position name="pos_web_plate_7" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_7" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_7" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_7">
@@ -3527,7 +3527,7 @@
 		</physvol>
 		<physvol name="mirror_flap_8">
 			<volumeref ref="logic_mirror_flap_8"/>
-			<position name="pos_logic_mirror_flap_8" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_8" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_8" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_8">
@@ -3597,12 +3597,12 @@
 		</physvol>
 		<physvol name="web_plate_right_8">
 			<volumeref ref="logic_web_plate_8"/>
-			<position name="pos_web_plate_8" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_8" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_8" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_8">
 			<volumeref ref="logic_web_plate_8"/>
-			<position name="pos_web_plate_8" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_8" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_8" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_8">
@@ -3913,7 +3913,7 @@
 		</physvol>
 		<physvol name="mirror_flap_9">
 			<volumeref ref="logic_mirror_flap_9"/>
-			<position name="pos_logic_mirror_flap_9" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_9" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_9" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_9">
@@ -3983,12 +3983,12 @@
 		</physvol>
 		<physvol name="web_plate_right_9">
 			<volumeref ref="logic_web_plate_9"/>
-			<position name="pos_web_plate_9" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_9" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_9" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_9">
 			<volumeref ref="logic_web_plate_9"/>
-			<position name="pos_web_plate_9" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_9" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_9" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_9">
@@ -4299,7 +4299,7 @@
 		</physvol>
 		<physvol name="mirror_flap_10">
 			<volumeref ref="logic_mirror_flap_10"/>
-			<position name="pos_logic_mirror_flap_10" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_10" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_10" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_10">
@@ -4369,12 +4369,12 @@
 		</physvol>
 		<physvol name="web_plate_right_10">
 			<volumeref ref="logic_web_plate_10"/>
-			<position name="pos_web_plate_10" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_10" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_10" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_10">
 			<volumeref ref="logic_web_plate_10"/>
-			<position name="pos_web_plate_10" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_10" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_10" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_10">
@@ -4685,7 +4685,7 @@
 		</physvol>
 		<physvol name="mirror_flap_11">
 			<volumeref ref="logic_mirror_flap_11"/>
-			<position name="pos_logic_mirror_flap_11" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_11" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_11" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_11">
@@ -4755,12 +4755,12 @@
 		</physvol>
 		<physvol name="web_plate_right_11">
 			<volumeref ref="logic_web_plate_11"/>
-			<position name="pos_web_plate_11" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_11" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_11" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_11">
 			<volumeref ref="logic_web_plate_11"/>
-			<position name="pos_web_plate_11" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_11" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_11" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_11">
@@ -5071,7 +5071,7 @@
 		</physvol>
 		<physvol name="mirror_flap_12">
 			<volumeref ref="logic_mirror_flap_12"/>
-			<position name="pos_logic_mirror_flap_12" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_12" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_12" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_12">
@@ -5141,12 +5141,12 @@
 		</physvol>
 		<physvol name="web_plate_right_12">
 			<volumeref ref="logic_web_plate_12"/>
-			<position name="pos_web_plate_12" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_12" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_12" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_12">
 			<volumeref ref="logic_web_plate_12"/>
-			<position name="pos_web_plate_12" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_12" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_12" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_12">
@@ -5457,7 +5457,7 @@
 		</physvol>
 		<physvol name="mirror_flap_13">
 			<volumeref ref="logic_mirror_flap_13"/>
-			<position name="pos_logic_mirror_flap_13" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_13" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_13" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_13">
@@ -5527,12 +5527,12 @@
 		</physvol>
 		<physvol name="web_plate_right_13">
 			<volumeref ref="logic_web_plate_13"/>
-			<position name="pos_web_plate_13" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_13" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_13" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_13">
 			<volumeref ref="logic_web_plate_13"/>
-			<position name="pos_web_plate_13" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_13" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_13" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_13">
@@ -5843,7 +5843,7 @@
 		</physvol>
 		<physvol name="mirror_flap_14">
 			<volumeref ref="logic_mirror_flap_14"/>
-			<position name="pos_logic_mirror_flap_14" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_14" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_14" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_14">
@@ -5913,12 +5913,12 @@
 		</physvol>
 		<physvol name="web_plate_right_14">
 			<volumeref ref="logic_web_plate_14"/>
-			<position name="pos_web_plate_14" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_14" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_14" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_14">
 			<volumeref ref="logic_web_plate_14"/>
-			<position name="pos_web_plate_14" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_14" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_14" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_14">
@@ -6229,7 +6229,7 @@
 		</physvol>
 		<physvol name="mirror_flap_15">
 			<volumeref ref="logic_mirror_flap_15"/>
-			<position name="pos_logic_mirror_flap_15" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_15" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_15" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_15">
@@ -6299,12 +6299,12 @@
 		</physvol>
 		<physvol name="web_plate_right_15">
 			<volumeref ref="logic_web_plate_15"/>
-			<position name="pos_web_plate_15" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_15" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_15" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_15">
 			<volumeref ref="logic_web_plate_15"/>
-			<position name="pos_web_plate_15" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_15" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_15" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_15">
@@ -6615,7 +6615,7 @@
 		</physvol>
 		<physvol name="mirror_flap_16">
 			<volumeref ref="logic_mirror_flap_16"/>
-			<position name="pos_logic_mirror_flap_16" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_16" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_16" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_16">
@@ -6685,12 +6685,12 @@
 		</physvol>
 		<physvol name="web_plate_right_16">
 			<volumeref ref="logic_web_plate_16"/>
-			<position name="pos_web_plate_16" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_16" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_16" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_16">
 			<volumeref ref="logic_web_plate_16"/>
-			<position name="pos_web_plate_16" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_16" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_16" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_16">
@@ -7001,7 +7001,7 @@
 		</physvol>
 		<physvol name="mirror_flap_17">
 			<volumeref ref="logic_mirror_flap_17"/>
-			<position name="pos_logic_mirror_flap_17" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_17" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_17" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_17">
@@ -7071,12 +7071,12 @@
 		</physvol>
 		<physvol name="web_plate_right_17">
 			<volumeref ref="logic_web_plate_17"/>
-			<position name="pos_web_plate_17" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_17" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_17" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_17">
 			<volumeref ref="logic_web_plate_17"/>
-			<position name="pos_web_plate_17" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_17" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_17" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_17">
@@ -7387,7 +7387,7 @@
 		</physvol>
 		<physvol name="mirror_flap_18">
 			<volumeref ref="logic_mirror_flap_18"/>
-			<position name="pos_logic_mirror_flap_18" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_18" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_18" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_18">
@@ -7457,12 +7457,12 @@
 		</physvol>
 		<physvol name="web_plate_right_18">
 			<volumeref ref="logic_web_plate_18"/>
-			<position name="pos_web_plate_18" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_18" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_18" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_18">
 			<volumeref ref="logic_web_plate_18"/>
-			<position name="pos_web_plate_18" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_18" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_18" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_18">
@@ -7773,7 +7773,7 @@
 		</physvol>
 		<physvol name="mirror_flap_19">
 			<volumeref ref="logic_mirror_flap_19"/>
-			<position name="pos_logic_mirror_flap_19" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_19" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_19" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_19">
@@ -7843,12 +7843,12 @@
 		</physvol>
 		<physvol name="web_plate_right_19">
 			<volumeref ref="logic_web_plate_19"/>
-			<position name="pos_web_plate_19" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_19" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_19" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_19">
 			<volumeref ref="logic_web_plate_19"/>
-			<position name="pos_web_plate_19" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_19" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_19" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_19">
@@ -8159,7 +8159,7 @@
 		</physvol>
 		<physvol name="mirror_flap_20">
 			<volumeref ref="logic_mirror_flap_20"/>
-			<position name="pos_logic_mirror_flap_20" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_20" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_20" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_20">
@@ -8229,12 +8229,12 @@
 		</physvol>
 		<physvol name="web_plate_right_20">
 			<volumeref ref="logic_web_plate_20"/>
-			<position name="pos_web_plate_20" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_20" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_20" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_20">
 			<volumeref ref="logic_web_plate_20"/>
-			<position name="pos_web_plate_20" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_20" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_20" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_20">
@@ -8545,7 +8545,7 @@
 		</physvol>
 		<physvol name="mirror_flap_21">
 			<volumeref ref="logic_mirror_flap_21"/>
-			<position name="pos_logic_mirror_flap_21" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_21" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_21" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_21">
@@ -8615,12 +8615,12 @@
 		</physvol>
 		<physvol name="web_plate_right_21">
 			<volumeref ref="logic_web_plate_21"/>
-			<position name="pos_web_plate_21" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_21" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_21" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_21">
 			<volumeref ref="logic_web_plate_21"/>
-			<position name="pos_web_plate_21" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_21" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_21" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_21">
@@ -8931,7 +8931,7 @@
 		</physvol>
 		<physvol name="mirror_flap_22">
 			<volumeref ref="logic_mirror_flap_22"/>
-			<position name="pos_logic_mirror_flap_22" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_22" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_22" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_22">
@@ -9001,12 +9001,12 @@
 		</physvol>
 		<physvol name="web_plate_right_22">
 			<volumeref ref="logic_web_plate_22"/>
-			<position name="pos_web_plate_22" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_22" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_22" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_22">
 			<volumeref ref="logic_web_plate_22"/>
-			<position name="pos_web_plate_22" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_22" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_22" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_22">
@@ -9317,7 +9317,7 @@
 		</physvol>
 		<physvol name="mirror_flap_23">
 			<volumeref ref="logic_mirror_flap_23"/>
-			<position name="pos_logic_mirror_flap_23" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_23" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_23" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_23">
@@ -9387,12 +9387,12 @@
 		</physvol>
 		<physvol name="web_plate_right_23">
 			<volumeref ref="logic_web_plate_23"/>
-			<position name="pos_web_plate_23" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_23" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_23" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_23">
 			<volumeref ref="logic_web_plate_23"/>
-			<position name="pos_web_plate_23" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_23" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_23" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_23">
@@ -9703,7 +9703,7 @@
 		</physvol>
 		<physvol name="mirror_flap_24">
 			<volumeref ref="logic_mirror_flap_24"/>
-			<position name="pos_logic_mirror_flap_24" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_24" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_24" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_24">
@@ -9773,12 +9773,12 @@
 		</physvol>
 		<physvol name="web_plate_right_24">
 			<volumeref ref="logic_web_plate_24"/>
-			<position name="pos_web_plate_24" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_24" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_24" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_24">
 			<volumeref ref="logic_web_plate_24"/>
-			<position name="pos_web_plate_24" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_24" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_24" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_24">
@@ -10089,7 +10089,7 @@
 		</physvol>
 		<physvol name="mirror_flap_25">
 			<volumeref ref="logic_mirror_flap_25"/>
-			<position name="pos_logic_mirror_flap_25" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_25" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_25" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_25">
@@ -10159,12 +10159,12 @@
 		</physvol>
 		<physvol name="web_plate_right_25">
 			<volumeref ref="logic_web_plate_25"/>
-			<position name="pos_web_plate_25" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_25" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_25" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_25">
 			<volumeref ref="logic_web_plate_25"/>
-			<position name="pos_web_plate_25" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_25" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_25" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_25">
@@ -10475,7 +10475,7 @@
 		</physvol>
 		<physvol name="mirror_flap_26">
 			<volumeref ref="logic_mirror_flap_26"/>
-			<position name="pos_logic_mirror_flap_26" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_26" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_26" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_26">
@@ -10545,12 +10545,12 @@
 		</physvol>
 		<physvol name="web_plate_right_26">
 			<volumeref ref="logic_web_plate_26"/>
-			<position name="pos_web_plate_26" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_26" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_26" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_26">
 			<volumeref ref="logic_web_plate_26"/>
-			<position name="pos_web_plate_26" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_26" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_26" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_26">
@@ -10861,7 +10861,7 @@
 		</physvol>
 		<physvol name="mirror_flap_27">
 			<volumeref ref="logic_mirror_flap_27"/>
-			<position name="pos_logic_mirror_flap_27" x="91.099" y="0" z="-25.203999999999997"/>
+			<position name="pos_logic_mirror_flap_27" x="91.099" y="0" z="-25.353999999999996"/>
 			<rotation name="rot_logic_mirror_flap_27" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="mirror_box_bot_27">
@@ -10931,12 +10931,12 @@
 		</physvol>
 		<physvol name="web_plate_right_27">
 			<volumeref ref="logic_web_plate_27"/>
-			<position name="pos_web_plate_27" x="125.246" y="148.9625" z="0"/>
+			<position name="pos_web_plate_27" x="125.05099999999997" y="148.9625" z="0"/>
 			<rotation name="rot_web_plate_27" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="web_plate_left_27">
 			<volumeref ref="logic_web_plate_27"/>
-			<position name="pos_web_plate_27" x="125.246" y="-148.9625" z="0"/>
+			<position name="pos_web_plate_27" x="125.05099999999997" y="-148.9625" z="0"/>
 			<rotation name="rot_web_plate_27" x="0" y="0" z="0"/>
 		</physvol>
 		<physvol name="ledge_right_27">
@@ -11940,7 +11940,7 @@
 	</skinsurface>
 
 </structure>
-<setup name="showerMaxWorld" version="3-1-0">
+<setup name="showerMaxWorld" version="3-1-1">
 	<world ref="showerMaxMother"/>
 </setup>
 </gdml>
