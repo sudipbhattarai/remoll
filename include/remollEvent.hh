@@ -32,6 +32,8 @@ class remollEvent {
   void SetRate( G4double rate ){ fRate = rate;}
 	G4double GetRate(){ return fRate; }
 	void SetAsymmetry( G4double A ){ fAsym = A; }
+    void SetAsymmetryTransverseVertical( G4double ATV ){ fAsymTV = ATV; }
+    void SetAsymmetryTransverseHorizontal( G4double ATH ){ fAsymTH = ATH; }
 
 	void SetQ2( G4double q2 ){ fQ2 = q2; }
 	void SetW2( G4double w2 ){ fW2 = w2; }
@@ -67,6 +69,8 @@ class remollEvent {
 	G4double fRate;
 	G4double fEffXs;
 	G4double fAsym, fmAsym;
+    G4double fAsymTV;
+    G4double fAsymTH;
 
 	G4double fQ2;
 	G4double fW2;

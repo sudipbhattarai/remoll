@@ -18,6 +18,7 @@ remollEvent::remollEvent()
   fVertexPos(0,0,0),
   fBeamE(0),fRate(0),fEffXs(0),
   fAsym(0),fmAsym(0),
+  fAsymTV(0),fAsymTH(0),
   fQ2(0),fW2(0),fXbj(0),
   fThCoM(0)
 {
@@ -102,6 +103,8 @@ remollEvent_t remollEvent::GetEventIO() const {
   ev.xs = fEffXs/microbarn;
   ev.A  = fAsym/ppb;
   ev.Am = fmAsym/ppb;
+  ev.ATV = fAsymTV/ppb;
+  ev.ATH = fAsymTH/ppb;
   ev.Q2 = fQ2;
   ev.W2 = fW2;
   ev.thcom = fThCoM;

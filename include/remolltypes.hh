@@ -32,6 +32,7 @@ struct filedata_t {
 // Event structure
 struct remollEvent_t {
   double A, Am;
+  double ATV, ATH;
   double xs;
   double Q2, W2;
   double thcom;
