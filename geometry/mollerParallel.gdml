@@ -105,6 +105,9 @@
 
   <box name="Showermax_stack_VirtualPlane_solid" lunit="mm" x="160" y="265" z="0.5"/>
 
+  <tube name="Showermax_preamp_VirtualAnnulus_solid" lunit="mm" rmin="1775" rmax="1975" z="0.5" startphi="0" deltaphi="360" aunit="deg"/>
+  <tube name="Showermax_preamp_VirtualTube_solid" lunit="mm" rmin="1890" rmax="1890.5" z="60" startphi="0" deltaphi="360" aunit="deg"/>
+
 </solids>
 
 <structure>
@@ -733,6 +736,20 @@
     <solidref ref="Showermax_stack_VirtualPlane_solid"/>
     <auxiliary auxtype="SensDet" auxvalue="planeDet"/>
     <auxiliary auxtype="DetNo" auxvalue="73027"/>
+  </volume>
+
+  <volume name="showerMaxPreampVirtualAnnulus_log">
+    <materialref ref="G4_Si"/>
+    <solidref ref="Showermax_preamp_VirtualAnnulus_solid"/>
+    <auxiliary auxtype="SensDet" auxvalue="planeDet"/>
+    <auxiliary auxtype="DetNo" auxvalue="701"/>
+  </volume>
+
+  <volume name="showerMaxPreampVirtualTube_log">
+    <materialref ref="G4_Si"/>
+    <solidref ref="Showermax_preamp_VirtualTube_solid"/>
+    <auxiliary auxtype="SensDet" auxvalue="planeDet"/>
+    <auxiliary auxtype="DetNo" auxvalue="702"/>
   </volume>
 
   <volume name="LintelExit_log">
@@ -1751,7 +1768,17 @@
       <positionref ref="showerMaxStackVirtualPlane_27_pos"/>
       <rotationref ref="showerMaxStackVirtualPlane_27_rot"/>
     </physvol>
-    
+
+    <physvol name="showerMaxPreampVirtualAnnulus_phys">
+      <volumeref ref="showerMaxPreampVirtualAnnulus_log"/>
+      <positionref ref="showerMaxPreampVirtualAnnulus_pos"/>
+    </physvol>
+
+    <physvol name="showerMaxPreampVirtualTube_phys">
+      <volumeref ref="showerMaxPreampVirtualTube_log"/>
+      <positionref ref="showerMaxPreampVirtualTube_pos"/>
+    </physvol>
+      
     <physvol name="Ring1Back_phys">
       <volumeref ref="Ring1Back_log"/>
       <position name="Ring1Back_pos" unit="mm" z="22198.00 + 1204.94 + 21"/>

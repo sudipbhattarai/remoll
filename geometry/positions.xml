@@ -130,3 +130,7 @@
 <rotation name="showerMaxStackVirtualPlane_25_rot" z="-321.43" unit="deg" />
 <rotation name="showerMaxStackVirtualPlane_26_rot" z="-334.29" unit="deg" />
 <rotation name="showerMaxStackVirtualPlane_27_rot" z="-347.14" unit="deg" />
+
+<!-- Showermax preamps surfaces -->
+<position name="showerMaxPreampVirtualAnnulus_pos" z="23960" unit="mm"/>
+<position name="showerMaxPreampVirtualTube_pos" z="23975" unit="mm"/>

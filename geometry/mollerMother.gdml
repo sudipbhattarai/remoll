@@ -383,12 +383,10 @@
       </physvol>
       
     <!-- PMT region shielding-->
-    <!--
     <physvol>
       <file name="shielding/shielding.gdml"/>
       <position name="PMTShield" x="0" y="0" z="22521.3"/>
     </physvol>
-      -->
 
       <!-- ShowerMax Detectors-->
       <physvol>
